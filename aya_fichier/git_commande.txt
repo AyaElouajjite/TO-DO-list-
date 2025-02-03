@@ -1,0 +1,16 @@
+# Vérifier les fichiers modifiés
+git status
+
+# Ajouter tous les fichiers (modifiés, supprimés, ajoutés)
+git add .
+
+# Valider les modifications avec un message clair
+git commit -m "Ajout des nouvelles fonctionnalités"
+
+# Envoyer les changements vers le dépôt distant
+git push origin main  # (ou "master" selon ton repo)
+
+# Initialiser le dépôt Git :
+git init
+
+
