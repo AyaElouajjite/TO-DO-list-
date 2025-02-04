@@ -19,6 +19,11 @@ git remote add origin https://github.com/ayada-best/task-manager
 # Envoyer les changements vers le dépôt distant
 git push origin main  # (ou "master" selon ton repo)
 
+#récuperer d'après une autre pc 
+git pull origin main
+
+git add . && git commit -m "Description" && git push origin main
+
 
 
 
